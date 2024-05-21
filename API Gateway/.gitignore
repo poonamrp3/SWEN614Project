@@ -1,0 +1,7 @@
+# ignore temporary files created by terraform
+terraform*
+.terraform*
+*.zip
+get_results.py
+
+

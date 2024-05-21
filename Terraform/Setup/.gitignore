@@ -1,0 +1,6 @@
+# ignore temporary files created by terraform
+terraform.tfstate*
+.terraform*
+*.zip
+
+

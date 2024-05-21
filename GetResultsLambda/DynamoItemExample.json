@@ -1,0 +1,11 @@
+{
+  "Email": {
+    "S": "someEmail"
+  },
+  "CelebrityImageLinks": {
+    "S": "someS3Links"
+  },
+  "UserImageLink": {
+    "S": "someS3Link"
+  }
+}

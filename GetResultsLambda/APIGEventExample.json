@@ -1,0 +1,120 @@
+{
+  "resource": "/get-records/{email}",
+  "path": "/get-records/user1@gmail.com",
+  "httpMethod": "GET",
+  "headers": {
+      "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "accept-language": "en-US,en;q=0.9,ru-RU;q=0.8,ru;q=0.7",
+      "cache-control": "max-age=0",
+      "Host": "t0cgvzrax3.execute-api.us-east-1.amazonaws.com",
+      "sec-ch-ua": "\"Google Chrome\";v=\"123\", \"Not:A-Brand\";v=\"8\", \"Chromium\";v=\"123\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "document",
+      "sec-fetch-mode": "navigate",
+      "sec-fetch-site": "none",
+      "sec-fetch-user": "?1",
+      "upgrade-insecure-requests": "1",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+      "X-Amzn-Trace-Id": "Root=1-6604a81e-59c8361518afd45473c84e38",
+      "X-Forwarded-For": "129.21.115.203",
+      "X-Forwarded-Port": "443",
+      "X-Forwarded-Proto": "https"
+  },
+  "multiValueHeaders": {
+      "accept": [
+          "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+      ],
+      "accept-encoding": [
+          "gzip, deflate, br, zstd"
+      ],
+      "accept-language": [
+          "en-US,en;q=0.9,ru-RU;q=0.8,ru;q=0.7"
+      ],
+      "cache-control": [
+          "max-age=0"
+      ],
+      "Host": [
+          "t0cgvzrax3.execute-api.us-east-1.amazonaws.com"
+      ],
+      "sec-ch-ua": [
+          "\"Google Chrome\";v=\"123\", \"Not:A-Brand\";v=\"8\", \"Chromium\";v=\"123\""
+      ],
+      "sec-ch-ua-mobile": [
+          "?0"
+      ],
+      "sec-ch-ua-platform": [
+          "\"Windows\""
+      ],
+      "sec-fetch-dest": [
+          "document"
+      ],
+      "sec-fetch-mode": [
+          "navigate"
+      ],
+      "sec-fetch-site": [
+          "none"
+      ],
+      "sec-fetch-user": [
+          "?1"
+      ],
+      "upgrade-insecure-requests": [
+          "1"
+      ],
+      "User-Agent": [
+          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
+      ],
+      "X-Amzn-Trace-Id": [
+          "Root=1-6604a81e-59c8361518afd45473c84e38"
+      ],
+      "X-Forwarded-For": [
+          "129.21.115.203"
+      ],
+      "X-Forwarded-Port": [
+          "443"
+      ],
+      "X-Forwarded-Proto": [
+          "https"
+      ]
+  },
+  "queryStringParameters": null,
+  "multiValueQueryStringParameters": null,
+  "pathParameters": {
+      "email": "user1@gmail.com"
+  },
+  "stageVariables": null,
+  "requestContext": {
+      "resourceId": "mauipk",
+      "resourcePath": "/get-records/{email}",
+      "httpMethod": "GET",
+      "extendedRequestId": "VT80wHrKoAMECoA=",
+      "requestTime": "27/Mar/2024:23:13:34 +0000",
+      "path": "/v1/get-records/user1@gmail.com",
+      "accountId": "891377384709",
+      "protocol": "HTTP/1.1",
+      "stage": "v1",
+      "domainPrefix": "t0cgvzrax3",
+      "requestTimeEpoch": 1711581214184,
+      "requestId": "52f8cea7-96bb-4119-ae0c-8bb87ca2f000",
+      "identity": {
+          "cognitoIdentityPoolId": null,
+          "accountId": null,
+          "cognitoIdentityId": null,
+          "caller": null,
+          "sourceIp": "129.21.115.203",
+          "principalOrgId": null,
+          "accessKey": null,
+          "cognitoAuthenticationType": null,
+          "cognitoAuthenticationProvider": null,
+          "userArn": null,
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+          "user": null
+      },
+      "domainName": "t0cgvzrax3.execute-api.us-east-1.amazonaws.com",
+      "deploymentId": "kiia8e",
+      "apiId": "t0cgvzrax3"
+  },
+  "body": null,
+  "isBase64Encoded": false
+}
