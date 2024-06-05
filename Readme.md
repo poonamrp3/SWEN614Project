@@ -27,5 +27,4 @@ If changes are made to lambdas in their respective folders, they need to be copi
 terraform destroy removes most objects apart from the S3 bucket user-images bucket and the S3 Glacier. The user images bucket must be manually emptied and deleted, whereas S3 Glacier is destroyed on a scheduled basis.
 
 
-## TODO:
-1. Update the file name and terraform resource name convention to make the code more readable.
+
